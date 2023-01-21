@@ -1,0 +1,50 @@
+PingPong2D
+	menu
+		play
+		
+		settings
+			difficulty
+				difficulty: [easy, normal, hard, custom difficulty]
+				ball starting speed: int
+				ball accelaration: int
+				ball max speed: 
+				players size: [20, 60, 100, custom size]
+				timed: boolean
+
+
+			change the keys
+				left player up:
+				left player down:
+				left player left:
+				left player right:
+				right player up:
+				right player down:
+				right player left:
+				right player right:
+				reset
+
+			Theme
+				Theme: [option1, option2, option3, option 4, option 5, custom]
+				left player color: [option1, option2, option3, option 4, option 5, color code]
+				right player color: [option1, option2, option3, option 4, option 5, color code]
+				background: [option1, option2, option3, option 4, option 5, color code]
+				net: [option1, option2, option3, option 4, option 5, color code]
+
+			reset settings
+
+		exit
+
+	Game
+		table
+			background
+			net
+			scoreboard
+		leftP
+		rightP
+
+	pause menu
+		unpause
+		main manue
+		esc
+
+	results
